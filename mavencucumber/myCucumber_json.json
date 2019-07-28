@@ -1,0 +1,68 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 9,
+        "name": "Myntra Login page validation",
+        "description": "",
+        "id": "myntraapp-sit-testing;myntra-login-page-validation;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 3,
+            "name": "Open browser and open Application",
+            "match": {
+              "location": "Steps.open_browser_and_open_Application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "Enter \"tester1\" and \"password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "tester1",
+                  "offset": 7
+                },
+                {
+                  "val": "password",
+                  "offset": 21
+                }
+              ],
+              "location": "Steps.enter_and(String,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "Verify the login open functionality",
+            "match": {
+              "location": "Steps.verify_the_login_open_functionality()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "MyntraApp SIT Testing",
+    "description": "",
+    "id": "myntraapp-sit-testing",
+    "keyword": "Feature",
+    "uri": "MyFeature.feature"
+  }
+]
